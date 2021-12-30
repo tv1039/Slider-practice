@@ -1,6 +1,6 @@
-#spider - slider
+<h1>spider - slider</h1>
 
-practice
+<h2>jquery practice</h2>
 
 slider for work
 
