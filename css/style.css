@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+button {
+  cursor: pointer;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+* {
+  font-family: "Malgun-Gothic", "맑은고딕", "Nanum-Gothic", "나눔고딕",
+    sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+body {
+background: #000000;
+}
+
+.modalOn_btn {
+  width: 246px;
+  height: 205px;
+  background: url("../images/button.jpeg") no-repeat;
+  background-size: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.modalOn_btn:hover {
+  background-color: #dd2012
+}
+
+.modalBg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+  display: none;
+}
+
+.modal_wrap_01 {
+  width: 879px;
+  height: 636px;
+  margin: 82px auto;
+  position: relative;
+}
+
+.slideshow_01 {
+  width: 836px;
+  height: 636px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides_wrap_01 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* 가로정렬 */
+.slides_wrap_01 div {
+  position: absolute;
+  width: 784px;
+  height: 593px;
+  background: bisque;
+  border: 15px solid #025ebb;
+}
+
+.slideshow_nav_01 a {
+  width: 72px;
+  height: 114px;
+  position: absolute;
+  left: 50%;
+  top: 350px;
+}
+
+.slideshow_nav_01 a.disabled {
+  display: none;
+}
+
+.slideshow_nav_01 a.prev {
+  background: url("../images/slide_Lbtn.png") no-repeat;
+  margin-left: -512px;
+}
+
+.slideshow_nav_01 a.next {
+  background: url("../images/slide_Rbtn.png") no-repeat;
+  margin-left: 376px;
+}
+
+/* modal close button */
+.modalclose_btn {
+  background: url("../images/btnClose.png") no-repeat;
+  width: 43px;
+  height: 41px;
+  position: relative;
+  top: -636px;
+  left: 814px;
+  z-index: 20000;
+  cursor: pointer;
+  display: none;
+}
