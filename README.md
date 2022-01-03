@@ -4,3 +4,4 @@
 
 slider for work
 
+web: https://tv1039.github.io/Slider-practice/
